@@ -1,0 +1,236 @@
+<!-- nav bar (12 on top 12 on bottom) 6 3(12 on top, 3 4's on bottom) -->
+<!-- left 9(divided up into left 8 and right 4(split up into 4 and 8)), right 3 -->
+<!-- 4 3's on bottom split in half for each -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Youtube</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<style type="text/css" media="screen">
+		
+	input{
+		width: 375px;
+	}
+	body{
+		width: 100%;
+	}
+
+	#small-border h5{
+		margin-top: 0px;
+		margin-bottom: 0px;
+
+	}
+
+	/* .bottom{
+		background-color: slategrey;
+	} */
+
+	.thumbnail{
+		border: 0 none;
+		box-shadow: none;
+	}
+
+	.row {
+		border-top: 1px solid darkgrey;
+	}
+	
+
+
+	</style>
+
+</head>
+<body>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-3">
+			<div class="col-md-12">
+				<h1>You<span style="color:red">Tube</span></h1>
+			</div>
+			<div class="col-md-12">
+				<h5>Broadcast Yourself!</h5>
+			</div>
+		</div>
+		<div class="col-md-6 text-center" style="margin-top:35px">
+			<div class="col-md-9" style="margin-right: -25px">
+				<input type="text">
+			</div>
+			<div class="col-md-3">
+				<button class="btn btn-default" type="submit">Search</button>
+			</div>
+			<div id="small-border">
+				<div class="col-md-3" style="border-right: 2px solid black">
+					<h5>Home</h5>
+				</div>
+				<div class="col-md-3">
+					<h5>Videos</h5>
+				</div>
+				<div class="col-md-3" style="border-left: 2px solid black">
+					<h5>Channels</h5>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3 text-center" style="margin-top:35px">
+			<div class="col-md-12">
+				<h5>Create Account or Sign-In</h5>
+			</div>
+			<div class="col-md-4">
+				<h6>Subscriptions</h6>
+			</div>
+			<div class="col-md-4">
+				<h6>History</h6>
+			</div>
+			<div class="col-md-4">
+				<h6>Upload</h6>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-9" style="margin-top:35px">
+			<div class="col-md-8 thumbnail">
+				<h4>Featured</h4>
+				<iframe width="500" height="400" src="https://www.youtube.com/embed/EFOvLoKR27w" frameborder="0" allowfullscreen></iframe>
+				<!-- <img src="http://via.placeholder.com/500x400"> -->
+			</div>
+			<div class="col-md-4">
+				<h4>Up Next</h4>
+				<div class="col-md-12">
+					<div class="col-md-4 thumbnail">
+						<iframe width="75"" height="75" src="https://www.youtube.com/embed/sZy3fZ_CACM" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<div class="col-md-8" style="word-wrap: break-word;">
+						<p>Puppy bowl highlights!!!</p>
+					</div>
+				</div>
+				
+				<div class="col-md-12">
+					<div class="col-md-4 thumbnail">
+						<iframe width="75" height="75" src="https://www.youtube.com/embed/15SdPnof0FY" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<div class="col-md-8" style="word-wrap: break-word">
+						<p>More puppy bowl highlights!!</p>
+					</div>
+				</div>
+				
+				<div class="col-md-12">
+					<div class="col-md-4 thumbnail">
+						<iframe width="75" height="75" src="https://www.youtube.com/embed/pJdkbft2IUc" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<div class="col-md-8" style="word-wrap: break-word">
+						<p>Puppy bowl on the Jimmy Fallon Show</p>
+						
+					</div>
+				</div>
+				</div>
+		</div>
+			<div class="col-md-3" style="margin-top:35px">
+				<div class="col-md-12 thumbnail">
+					<img src="ad.png">
+				</div>
+				<div class="col-md-12" style="word-wrap: break-word">
+					<p></p>
+				</div>
+			</div>
+	</div>
+	<div class="bottom">
+		<div class="row">
+			<div class="col-md-12">
+				<h4>More Videos</h4>
+				<div class="col-md-3">
+					<div class="col-md-6 thumbnail">
+					<iframe width="100" height="100" src="https://www.youtube.com/embed/VF9-sEbqDvU" frameborder="0" allowfullscreen></iframe>
+						<!-- <img src="http://via.placeholder.com/100x100"> -->
+					</div>
+					<div class="col-md-6" style="word-wrap: break-word">
+						<p>Marcel the Shell with Shoes On</p>
+					</div>
+				</div>
+				
+				<div class="col-md-3">
+					<div class="col-md-6 thumbnail">
+						<iframe width="100" height="100" src="https://www.youtube.com/embed/Ta9K22D0o5Q" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<div class="col-md-6" style="word-wrap: break-word">
+						<p>Marcel the Shell with Shoes On 2</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="col-md-6 thumbnail">
+						<iframe width="100" height="100" src="https://www.youtube.com/embed/QYZLy5uC5uc" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<div class="col-md-6" style="word-wrap: break-word">
+						<p>Marcel the Shell with Shoes On 3</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="col-md-6 thumbnail">
+						<iframe width="100" height="100" src="https://www.youtube.com/embed/qJfyqtl1ahA" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<div class="col-md-6" style="word-wrap: break-word">
+						<p>2017 America's Got Talent finale</p>
+					</div>
+				</div>
+			
+			</div>
+		</div>
+		<div class="row" style="border: none">
+			<div class="col-md-12">
+				<div class="col-md-3">
+					<div class="col-md-6 thumbnail">
+						<iframe width="100" height="100" src="https://www.youtube.com/embed/Hv3YYWJjiws" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<div class="col-md-6" style="word-wrap: break-word">
+						<p>Atlanta Falcons Week 3 Highlights</p>
+					</div>
+				</div>
+				
+				<div class="col-md-3">
+					<div class="col-md-6 thumbnail">
+						<iframe width="100" height="100" src="https://www.youtube.com/embed/MFt9H7-UFFI" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<div class="col-md-6" style="word-wrap: break-word">
+						<p>Atlanta Falcons Week 2 Highlights</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="col-md-6 thumbnail">
+						<iframe width="100" height="100" src="https://www.youtube.com/embed/dmGlsogbJTM" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<div class="col-md-6" style="word-wrap: break-word">
+						<p>Atlanta Falcons Week 1 Highlights</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="col-md-6 thumbnail">
+						<iframe width="100" height="100" src="https://www.youtube.com/embed/pJoto7XDWVQ" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<div class="col-md-6" style="word-wrap: break-word">
+						<p>Atlanta United vs. Montreal Highlights</p>
+					</div>
+				</div>
+			
+			</div>
+		</div>
+	</div>	
+
+	
+
+	
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
